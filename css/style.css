@@ -173,7 +173,18 @@ header nav a:hover {
 footer {
     display: flex;
     justify-content: space-between;
-    text-align: left;
+}
+footer a {
+    padding: 5px 20px 5px 0;
+    color: black;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    padding-right: 200px;
+}
+footer a:hover {
+    color: #0065FC;
 }
 
 

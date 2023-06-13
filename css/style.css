@@ -86,11 +86,30 @@ header nav a:hover {
 /*****Présentation et barre de Recherche+Filtres*****/
 
 .headline {
-    padding: 20px;
+    padding: 10px 0 10px 10px;
 }
 .fa-location-dot {
     color: black;
 }
+.zone-de-recherche {
+    padding: 10px 0 10px 30px;
+}
+input[type=text] {
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+input[type=submit] {
+    color: white;
+    background-color: #0065FC;
+    border: none;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+}
+
+
+
 
 
 

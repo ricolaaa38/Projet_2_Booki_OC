@@ -70,6 +70,19 @@ body {
 .hebergements {
     width: 65%;
 }
+.column-hebergement {
+    display: flex;
+    justify-content: space-between;
+}
+.cartes-hebergement img {
+    width: 10em;
+    height: 136px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
 
 /****** Populaires ***********/
 .populaires {
@@ -116,6 +129,28 @@ body {
     margin-bottom: 5px;
 }
 
+
+
+/*****Activités*****/
+
+.activite {
+    display: flex;
+    justify-content: space-between;
+}
+.cartes-activite img {
+    width: 280px;
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+/*****Footer*****/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 

@@ -10,13 +10,15 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    /> -->
+    <script src="https://kit.fontawesome.com/f8163ca424.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -37,7 +39,15 @@
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre-ville ou en pleine nature</p>
           </div>
-          <div class="barre-de-recherche"></div>
+          <div class="barre-de-recherche">
+            <form method="get" action="">
+                <p>
+                <label for="destination"><i class="fa-xm fa-solid fa-location-dot"></i></label>
+                <input type="text" name="destination" id="destination" placeholder="Marseille, France" size="20" maxlength="20">
+                <input type="submit" value="Rechercher">
+                </p>
+            </form>
+          </div>
           <div class="filtres"></div>
           <div class="note-info"></div>
         </div>

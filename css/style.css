@@ -55,6 +55,10 @@ body {
     color: var(--main-bg-color)
 }
 
+
+
+
+
 /*****Header*****/
 
 header {
@@ -74,6 +78,21 @@ header nav a:hover {
     width: 80px;
     height: 25px;
 }
+
+
+
+
+
+/*****Présentation et barre de Recherche+Filtres*****/
+
+.headline {
+    padding: 20px;
+}
+.fa-location-dot {
+    color: black;
+}
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -154,6 +173,8 @@ header nav a:hover {
 
 
 
+
+
 /*****Activités*****/
 
 .activite {
@@ -166,6 +187,9 @@ header nav a:hover {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
+
+
 
 
 /*****Footer*****/
@@ -186,6 +210,8 @@ footer a {
 footer a:hover {
     color: #0065FC;
 }
+
+
 
 
 

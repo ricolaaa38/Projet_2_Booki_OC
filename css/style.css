@@ -85,7 +85,7 @@ header nav a:hover {
 
 /*****Présentation et barre de Recherche+Filtres*****/
 
-.headline {
+.headline,.note-info,.zone-filtres  {
     padding: 10px 0 10px 10px;
 }
 .fa-location-dot {
@@ -119,9 +119,43 @@ input[type=text] {
     padding: 13px;
     border-radius: 10px 10px 10px 10px;
 }
-
-
-
+.fa-money-bill-wave,.fa-person,.fa-heart,.fa-fire,.fa-circle-info {
+    margin: 0 10px 0 0;
+}
+ 
+.bouton-filtres {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px #DEEBFF solid;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 0 10px 0 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.ligne-filtres {
+    display: flex;
+    flex-direction: row;
+}
+.column-filtres {
+    display: flex;
+    flex-direction: row;
+}
+.zone-filtres {
+    display: flex;
+    flex-direction: row;
+}
+.bouton-filtres:hover {
+    background-color: #DEEBFF;
+}
+.note-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.8em;
+}
 
 
 /****** Hebergements And Populaires ***********/

@@ -99,15 +99,26 @@ input[type=text] {
     text-align: center;
     font-weight: bold;
     font-size: 1em;
+    padding: 10px 0 10px 0;
 }
-input[type=submit] {
+.bouton-rechercher {
     color: white;
     background-color: #0065FC;
     border: none;
-    padding: 10px;
+    padding: 13px;
     border-radius: 0 10px 10px 0;
 }
-
+.fa-magnifying-glass {
+    color: white;
+    background-color: #0065FC;
+}
+.logo-loupe {
+    opacity: 0;
+    background-color: #0065FC;
+    border: none;
+    padding: 13px;
+    border-radius: 10px 10px 10px 10px;
+}
 
 
 
@@ -125,6 +136,11 @@ input[type=submit] {
     padding: 30px;
     box-sizing: border-box;
 }
+
+
+
+
+
 
 /****** Hebergements ***********/
 .hebergements {
@@ -144,6 +160,10 @@ input[type=submit] {
     display: flex;
     align-items: center;
 }
+
+
+
+
 
 /****** Populaires ***********/
 .populaires {
@@ -189,6 +209,7 @@ input[type=submit] {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
 
 
 

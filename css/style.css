@@ -228,7 +228,7 @@ input[type=text] {
     margin: 3px 0 3px 10px;
 }
 .cartes-hebergement-content2 .card-rating {
-    margin: 3px 0 5px 10px;
+    margin: 5px 0 5px 10px;
 }
 .afficher-plus {
     width: 150px;
@@ -315,6 +315,15 @@ input[type=text] {
 .activite {
     display: flex;
     justify-content: space-between;
+    margin: 10px;
+}
+.cartes-activite {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.cartes-activite:hover {
+    opacity: 0.8;
 }
 .cartes-activite img {
     width: 280px;
@@ -323,8 +332,12 @@ input[type=text] {
     border-top-right-radius: 20px;
     object-fit: cover;
 }
-
-
+.cartes-activite h3 {
+    padding-left: 10px;
+}
+.activite-title {
+    margin: 10px 0 20px 10px;
+}
 
 
 

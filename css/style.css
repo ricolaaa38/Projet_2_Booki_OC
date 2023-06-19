@@ -694,6 +694,9 @@ footer a:hover {
     .afficher-plus a {
         background-color: white;
     }
+    .zone-afficher-plus {
+        background-color: white;
+    }
     .cartes-hebergement {
         width: 100%;
         box-sizing: border-box;

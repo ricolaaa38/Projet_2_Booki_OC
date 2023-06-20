@@ -98,6 +98,8 @@ header nav a:hover {
 input[type=text] {
     border: 1px solid var(--main-bg-color);
     border-right: none;
+     /* retirer ou non l'outline de la barre de recherche */
+    /* outline: none; */
     text-align: center;
     font-weight: bold;
     font-size: 15px;

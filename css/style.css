@@ -158,16 +158,7 @@ input[type=text] {
 .bouton-filtres:hover {
     background-color: #DEEBFF;
 }
-.bouton-filtres:hover .fa-money-bill-wave {
-    background-color: #DEEBFF;
-}
-.bouton-filtres:hover .fa-heart {
-    background-color: #DEEBFF;
-}
-.bouton-filtres:hover .fa-person {
-    background-color: #DEEBFF;
-}
-.bouton-filtres:hover .fa-fire {
+.bouton-filtres:hover .fa-money-bill-wave, .bouton-filtres:hover .fa-heart, .bouton-filtres:hover .fa-person, .bouton-filtres:hover .fa-fire {
     background-color: #DEEBFF;
 }
 
@@ -577,17 +568,22 @@ footer a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 0;
+        margin: 10px 0 0 0;
     }
     #logo {
         padding: 10px;
     }
     nav {
-        margin: 10px 10px 0 10px;
+        margin: 10px 10px 10px 10px;
         display: flex;
+        width: 100%;
     }
     nav a {
-        padding: 10px 50px 15px 50px;
+        padding: 10px 0 15px 0;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 2px white solid;
     }
     header nav a:hover {
         border-top: none;
